@@ -1,5 +1,5 @@
 {
-  "time": 1664208852643,
+  "time": 1664258940327,
   "version": {
     "sideex": [
       3,
@@ -19,426 +19,7 @@
       "enableOnPlaying": true,
       "cases": [
         {
-          "title": "LoginAdminPanel",
-          "description": "",
-          "enableOnPlaying": true,
-          "networkSpeed": 0,
-          "records": [
-            {
-              "name": "open",
-              "target": {
-                "usedIndex": 0,
-                "options": [
-                  {
-                    "type": "other",
-                    "value": "https://sso-dev.internal.xfers.com/auth/realms/xfers-internal/protocol/openid-connect/auth?client_id=xfers-admin-panel&state=f625028b-3ca3-4192-988f-823505a2552b&redirect_uri=http%3A%2F%2Fadmin-staging.internal.xfers.com%2Fsso_login%3Fredirect_url%3D%2F%26auth_callback%3D1&scope=openid&response_type=code"
-                  }
-                ],
-                "tac": ""
-              },
-              "value": {
-                "usedIndex": 0,
-                "options": [
-                  {
-                    "type": "other",
-                    "value": ""
-                  }
-                ],
-                "tac": ""
-              },
-              "description": "",
-              "pwt": {
-                "pbw": 0,
-                "paw": 0,
-                "prw": 0,
-                "pdw": 0
-              },
-              "comment": false
-            },
-            {
-              "name": "setViewportSize",
-              "target": {
-                "usedIndex": 0,
-                "options": [
-                  {
-                    "type": "other",
-                    "value": ""
-                  }
-                ],
-                "tac": ""
-              },
-              "value": {
-                "usedIndex": 0,
-                "options": [
-                  {
-                    "type": "other",
-                    "value": "767,704"
-                  }
-                ],
-                "tac": ""
-              },
-              "description": "",
-              "pwt": {
-                "pbw": 0,
-                "paw": 0,
-                "prw": 0,
-                "pdw": 0
-              },
-              "comment": false
-            },
-            {
-              "name": "pageReload",
-              "target": {
-                "usedIndex": 0,
-                "options": [
-                  {
-                    "type": "other",
-                    "value": ""
-                  }
-                ],
-                "tac": ""
-              },
-              "value": {
-                "usedIndex": 0,
-                "options": [
-                  {
-                    "type": "other",
-                    "value": ""
-                  }
-                ],
-                "tac": ""
-              },
-              "description": "",
-              "pwt": {
-                "pbw": null,
-                "paw": 0,
-                "prw": 0,
-                "pdw": 0
-              },
-              "comment": false
-            },
-            {
-              "name": "sendKeys",
-              "target": {
-                "usedIndex": 0,
-                "options": [
-                  {
-                    "type": "tac",
-                    "value": "(#username)"
-                  },
-                  {
-                    "type": "id",
-                    "value": "id=username"
-                  },
-                  {
-                    "type": "name",
-                    "value": "name=username"
-                  },
-                  {
-                    "type": "xpath:idRelative",
-                    "value": "//form[@id='kc-form-login']/div[1]/input[1]"
-                  },
-                  {
-                    "type": "xpath:position",
-                    "value": "//input[1]"
-                  },
-                  {
-                    "type": "xpath:attributes",
-                    "value": "//input[@id='username']"
-                  },
-                  {
-                    "type": "css:position",
-                    "value": "css=#username"
-                  }
-                ],
-                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYDMMkBbAbQAE0AEwC8AcgDWsTjxgAbDAHM0WMQF0WQtHF4ENKmgFcwutRRAYwzcxgh5QkRQDkI3BMwPHzkAEYqhCFTMZJTCzIYoyFiu7pRQchAoKMw07DDSXNzp2GBIGHLm0W7hkUhFsSBwEHKG7vjeAJ40deCBVpQQxhicUBHWHV1QGNw0cghgLd3s5hBIaBAwKlVyYfWUClD0mFgA8kgBSMEgAL6UGFB09uAQzjHMWnDm8YnJ+DJZinmGNOYbW9h7A5HU4WC6HXAOG4uYr4BI+BAFSgyEpRO5xBJJFJpDI8AD6uLhCIABKl0jB3vjCXIYBMqO0QH8wNtAchgWcoDhcFhDHI5OyoHheGp2VZ8AhuBA0HISS8AO5cIQnIA"
-              },
-              "value": {
-                "usedIndex": 0,
-                "options": [
-                  {
-                    "type": "other",
-                    "value": "try.pane@fazzfinancial.com"
-                  }
-                ],
-                "tac": ""
-              },
-              "description": "",
-              "pwt": {
-                "pbw": 0,
-                "paw": 0,
-                "prw": 0,
-                "pdw": 0
-              },
-              "comment": false
-            },
-            {
-              "name": "sendKeys",
-              "target": {
-                "usedIndex": 0,
-                "options": [
-                  {
-                    "type": "tac",
-                    "value": "(#password)"
-                  },
-                  {
-                    "type": "id",
-                    "value": "id=password"
-                  },
-                  {
-                    "type": "name",
-                    "value": "name=password"
-                  },
-                  {
-                    "type": "xpath:idRelative",
-                    "value": "//form[@id='kc-form-login']/div[2]/input[1]"
-                  },
-                  {
-                    "type": "xpath:position",
-                    "value": "//div[2]/input[1]"
-                  },
-                  {
-                    "type": "xpath:attributes",
-                    "value": "//input[@id='password']"
-                  },
-                  {
-                    "type": "css:position",
-                    "value": "css=#password"
-                  }
-                ],
-                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYDMMkBbAbQAE0AEwC8AcgDWsTjxgAbDAHM0WMQF0WQtHF4AmDSpoBXMLwJqKIDGGaWMEPKEiKAchG4Jmhk5cgAjFSEEKmZdS2FmOhQUAHcuIUsoOQhoyPYYaS5uDOwwJAw5Syx3T3wo2PjfAE8aUpByuKQEyggTDCgMbho5BDA6jHZ2SwgkNAgYFTgIOQj8SwUoekwsAHkm5GYyAF9KdrpHcAhXEuYtOETk1PwZbMV8oxp59qXsNaCkUJAdqygaD9wnEc3B5mMk-AhCpQZJEUhUmhdYWkMjAbgB9VFgiEAAho6UyPHRmLkMD6VBslAWL1W63+hC+uygOFwWCMcjkDKgeF4agZNjKsMaQix6EUWBUXyAA"
-              },
-              "value": {
-                "usedIndex": 0,
-                "options": [
-                  {
-                    "type": "other",
-                    "value": "Parsoburan98*"
-                  }
-                ],
-                "tac": ""
-              },
-              "description": "",
-              "pwt": {
-                "pbw": 0,
-                "paw": 0,
-                "prw": 0,
-                "pdw": 0
-              },
-              "comment": false
-            },
-            {
-              "name": "clickAt",
-              "target": {
-                "usedIndex": 0,
-                "options": [
-                  {
-                    "type": "tac",
-                    "value": "(#username)"
-                  },
-                  {
-                    "type": "id",
-                    "value": "id=username"
-                  },
-                  {
-                    "type": "name",
-                    "value": "name=username"
-                  },
-                  {
-                    "type": "xpath:idRelative",
-                    "value": "//form[@id='kc-form-login']/div[1]/input[1]"
-                  },
-                  {
-                    "type": "xpath:position",
-                    "value": "//input[1]"
-                  },
-                  {
-                    "type": "xpath:attributes",
-                    "value": "//input[@id='username']"
-                  },
-                  {
-                    "type": "css:position",
-                    "value": "css=#username"
-                  }
-                ],
-                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYDMMkBbAbQAE0AEwC8AcgDWsTjxgAbDAHM0WMQF0WQtHF4ENKmgFcwutRRAYwzcxgh5QkRQDkI3BMwPHzkAEYqhCFTMZJTCzIYoyFiu7pRQchAoKMw07DDSXNzp2GBIGHLm0W7hkUhFsSBwEHKG7vjeAJ40deCBVpQQxhicUBHWHV1QGNw0cghgLd3s5hBIaBAwKlVyYfWUClD0mFgA8kgBSMEgAL6UGFB09uAQzjHMWnDm8YnJ+DJZinmGNOYbW9h7A5HU4WC6HXAOG4uYr4BI+BAFSgyEpRO5xBJJFJpDI8AD6uLhCIABKl0jB3vjCXIYBMqO0QH8wNtAchgWcoDhcFhDHI5OyoHheGp2VZ8AhuBA0HISS8AO5cIQnIA"
-              },
-              "value": {
-                "usedIndex": 0,
-                "options": [
-                  {
-                    "type": "other",
-                    "value": "189,18"
-                  }
-                ],
-                "tac": ""
-              },
-              "description": "",
-              "pwt": {
-                "pbw": 0,
-                "paw": 0,
-                "prw": 0,
-                "pdw": 0
-              },
-              "comment": false
-            },
-            {
-              "name": "clickAt",
-              "target": {
-                "usedIndex": 0,
-                "options": [
-                  {
-                    "type": "tac",
-                    "value": "(#password)"
-                  },
-                  {
-                    "type": "id",
-                    "value": "id=password"
-                  },
-                  {
-                    "type": "name",
-                    "value": "name=password"
-                  },
-                  {
-                    "type": "xpath:idRelative",
-                    "value": "//form[@id='kc-form-login']/div[2]/input[1]"
-                  },
-                  {
-                    "type": "xpath:position",
-                    "value": "//div[2]/input[1]"
-                  },
-                  {
-                    "type": "xpath:attributes",
-                    "value": "//input[@id='password']"
-                  },
-                  {
-                    "type": "css:position",
-                    "value": "css=#password"
-                  }
-                ],
-                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYDMMkBbAbQAE0AEwC8AcgDWsTjxgAbDAHM0WMQF0WQtHF4AmDSpoBXMLwJqKIDGGaWMEPKEiKAchG4Jmhk5cgAjFSEEKmZdS2FmOhQUAHcuIUsoOQhoyPYYaS5uDOwwJAw5Syx3T3wo2PjfAE8aUpByuKQEyggTDCgMbho5BDA6jHZ2SwgkNAgYFTgIOQj8SwUoekwsAHkm5GYyAF9KdrpHcAhXEuYtOETk1PwZbMV8oxp59qXsNaCkUJAdqygaD9wnEc3B5mMk-AhCpQZJEUhUmhdYWkMjAbgB9VFgiEAAho6UyPHRmLkMD6VBslAWL1W63+hC+uygOFwWCMcjkDKgeF4agZNjKsMaQix6EUWBUXyAA"
-              },
-              "value": {
-                "usedIndex": 0,
-                "options": [
-                  {
-                    "type": "other",
-                    "value": "89,16"
-                  }
-                ],
-                "tac": ""
-              },
-              "description": "",
-              "pwt": {
-                "pbw": 0,
-                "paw": 0,
-                "prw": 0,
-                "pdw": 0
-              },
-              "comment": false
-            },
-            {
-              "name": "clickAt",
-              "target": {
-                "usedIndex": 0,
-                "options": [
-                  {
-                    "type": "tac",
-                    "value": "(#kc-login)"
-                  },
-                  {
-                    "type": "id",
-                    "value": "id=kc-login"
-                  },
-                  {
-                    "type": "name",
-                    "value": "name=login"
-                  },
-                  {
-                    "type": "xpath:idRelative",
-                    "value": "//div[@id='kc-form-buttons']/input[2]"
-                  },
-                  {
-                    "type": "xpath:position",
-                    "value": "//input[2]"
-                  },
-                  {
-                    "type": "xpath:attributes",
-                    "value": "//input[@id='kc-login']"
-                  },
-                  {
-                    "type": "css:position",
-                    "value": "css=#kc-login"
-                  }
-                ],
-                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAOQBrWADMMSALYwARgFcwYbCmEBdFmiw1l3AEwaKIDGGboA5lh0mMEPKEiWAchBkJmOvecqR5OuwIVMwALCZQADYQKCjMNBIwsEoq2AAECTByNEhoMhBIAJ4ZiXLykRhQomnyYFgwkZYmWO6e+BWWtpQCzOINGJ04foU0bSAoivIyaL4gcBCRimNWWGldIBVQ9JhYAPJIQUjMBiAAvpSVdI7gEK6tzJxwJj34fVKyCsqqWHGUUTFxfDvOSWJAYRQ0EybbbYfaHMJnC5QHLXZxuDxeXTKExgEZjBgCIJDEAvEnsGAE9hEmDebGUFoY-BQJAIIlgNALHqUaHs2EHZDMMjnUxQHC4LCKSKRJFQPDcDRI8z4OixADu0nYaWkKx0qpmDEsGAGkU8pyAA"
-              },
-              "value": {
-                "usedIndex": 0,
-                "options": [
-                  {
-                    "type": "other",
-                    "value": ""
-                  }
-                ],
-                "tac": ""
-              },
-              "description": "",
-              "pwt": {
-                "pbw": 0,
-                "paw": 0,
-                "prw": 0,
-                "pdw": 0
-              },
-              "comment": false
-            },
-            {
-              "name": "clickAt",
-              "target": {
-                "usedIndex": 0,
-                "options": [
-                  {
-                    "type": "tac",
-                    "value": "(Logout)"
-                  },
-                  {
-                    "type": "xpath:idRelative",
-                    "value": "//div[@id='root']/div[1]/div[1]/button[1]/span[1]"
-                  },
-                  {
-                    "type": "xpath:position",
-                    "value": "//button[1]/span[1]"
-                  },
-                  {
-                    "type": "css:position",
-                    "value": "css=button.ant-btn.ant-btn-link > span"
-                  }
-                ],
-                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIzOPBSwBGAVzBhs8mSjpZdFEBOYAbDAHMMm4xgh5QkSwDkIAWwTN9EHJQtQ9JhYAPJI7MjMZAC+lBhQdI7gEK4eXvgaWtjGYACeNOkgmdp+IFBmECgozL5gMKpgWAAEtfWNMGZoWADWxgFB2GERSFEgsSYJI7hY6mZmcVA407PzE1B43FILYMwAZhAAXgcA+hbWRChwlk0CCFhgaHm7Xb5QCKq+3VXIcGhvNGJfsN0Fh2BgYCgIGYECgAGTuCAjaJAA"
-              },
-              "value": {
-                "usedIndex": 0,
-                "options": [
-                  {
-                    "type": "other",
-                    "value": "15,16"
-                  }
-                ],
-                "tac": ""
-              },
-              "description": "",
-              "pwt": {
-                "pbw": 0,
-                "paw": 0,
-                "prw": 0,
-                "pdw": 0
-              },
-              "comment": false
-            }
-          ]
-        },
-        {
-          "title": "AllMenuIdentity",
+          "title": "VerifyAllMenu",
           "description": "",
           "enableOnPlaying": true,
           "networkSpeed": 0,
@@ -491,7 +72,50 @@
                 "options": [
                   {
                     "type": "other",
-                    "value": "767,704"
+                    "value": "890,697"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(Identity)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='root']/div[1]/div[2]/ul[1]/li[1]/div[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[1]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.ant-menu-submenu-title"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIzOPAEwyArgBt5MjWm2yeCiiAnMBCLGDRgAnsYwQ8oSAHMAchAC2CZkuNQNCBQUZghLGG8sNRgUNQAjSOirMA0fSjFU5ji1MDBsYwgkNAgYBFow9gR2ZgAzCA0UNJBC4pgGIJoMGjUaZjAkNSbkzPxzS2s7ShRbEZA6dk4sFxhUmrBcAAJlABYaKgBuYw0MKHpMLAB5JEqkZjIAX0oTuidwCHcvH3xdf0Dg0PCiRi8USGzCYAiFmisQSUJgaCwuiwCDBgLhMKB0CsiGMGS+IES1gQniOJzO2CuNzuIEeJigNFuuCiGg0TygOFwzneHm8vi4pNOVgp12QzGUNLZUDw3C5H15o1+QRC+HBkKiwNh6sKYgA7gLyZcRYzCDSpGywLUIAAvK0AfWOLgwRBQcBcGxqCLCUAQcTCAGtgsg4GhvQyMMGbiF7kA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "52,25"
                   }
                 ],
                 "tac": ""
@@ -541,49 +165,6 @@
               },
               "description": "",
               "pwt": {
-                "pbw": -10162,
-                "paw": 0,
-                "prw": 0,
-                "pdw": 14
-              },
-              "comment": false
-            },
-            {
-              "name": "clickAt",
-              "target": {
-                "usedIndex": 0,
-                "options": [
-                  {
-                    "type": "tac",
-                    "value": "(Identity)"
-                  },
-                  {
-                    "type": "xpath:idRelative",
-                    "value": "//div[@id='root']/div[1]/div[2]/ul[1]/li[1]/div[1]"
-                  },
-                  {
-                    "type": "xpath:position",
-                    "value": "//li[1]/div[1]"
-                  },
-                  {
-                    "type": "css:position",
-                    "value": "css=div.ant-menu-submenu-title"
-                  }
-                ],
-                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIzOPAEwyArgBt5MjWm2yeCiiAnMBCLGDRgAnsYwQ8oSAHMAchAC2CZkuNQNCBQUZghLGG8sNRgUNQAjSOirMA0fSjFU5ji1MDBsYwgkNAgYBFow9gR2ZgAzCA0UNJBC4pgGIJoMGjUaZjAkNSbkzPxzS2s7ShRbEZA6dk4sFxhUmrBcAAJlABYaKgBuYw0MKHpMLAB5JEqkZjIAX0oTuidwCHcvH3xdf0Dg0PCiRi8USGzCYAiFmisQSUJgaCwuiwCDBgLhMKB0CsiGMGS+IES1gQniOJzO2CuNzuIEeJigNFuuCiGg0TygOFwzneHm8vi4pNOVgp12QzGUNLZUDw3C5H15o1+QRC+HBkKiwNh6sKYgA7gLyZcRYzCDSpGywLUIAAvK0AfWOLgwRBQcBcGxqCLCUAQcTCAGtgsg4GhvQyMMGbiF7kA"
-              },
-              "value": {
-                "usedIndex": 0,
-                "options": [
-                  {
-                    "type": "other",
-                    "value": "62,17"
-                  }
-                ],
-                "tac": ""
-              },
-              "description": "",
-              "pwt": {
                 "pbw": 0,
                 "paw": 0,
                 "prw": 0,
@@ -610,7 +191,7 @@
                   },
                   {
                     "type": "css:position",
-                    "value": "css=#identity\\$Menu > li.ant-menu-submenu.ant-menu-submenu-inline.ant-menu-submenu-active > div.ant-menu-submenu-title"
+                    "value": "css=li.ant-menu-submenu.ant-menu-submenu-inline.ant-menu-submenu-active > div.ant-menu-submenu-title"
                   }
                 ],
                 "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYFcAbAbQAE0AJgF4A5IIRYwaMAE8AJAFkJ7EQF0WnNNwLqBaONtUUQGMMwlTZxjBDyhIAcwByEALYJmeuMaicIKFGYISRh3LHYYFHYAIzCIy04PSiQMROZo9jAwbGMIJDQIGARaYIEEAWYAMwhOFCSQPIKYBn8aDBp2GmYwJHZ6hI98C2kZYxRZNPw6AT0sBxhEyrBcAAIAFgAOGioAbmNODCh6TCwAeSQypGYyAF9KQ7o7cAhnN0GQTR8-AKCQuMiYnEVsEwKFlADYuC0FhNFgEMC-uCopDwjBoFJEMYUpMQHFpAhXPtDsdsOdLtcQHcTFAaFdcOFOJx7lAcLh7C8XO5PPoiUcpKSLshmAAmSnMqB4bjs15c-BoL7+QL4EFg1HI-55FIAd15JLOgrphEpqmZZjlZUkIxWiHylTQfJOlKAA"
@@ -653,7 +234,7 @@
                   },
                   {
                     "type": "css:position",
-                    "value": "css=li.ant-menu-submenu.ant-menu-submenu-inline.ant-menu-submenu-active:nth-child(2) > div.ant-menu-submenu-title"
+                    "value": "css=li.ant-menu-submenu.ant-menu-submenu-inline.ant-menu-submenu-active > div.ant-menu-submenu-title"
                   }
                 ],
                 "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYFcAbAbQAE0AJgF4A5IIRYwaMAE8AJAFkJ7EQF0WnNNwBM6gWjjcCqiiAxhmiJGgBmaKPUw5KGCHlCQA5gDkIAWwRmfThTKE4IFBRmCEkYAKx2GBR2ACN4xKkwTkDKJAxs5hT2MDBsUwhrCBgEWhiBBAFmGwhOFByQCrQqhgiaDBp2GmYwJHZ2zIL8K1t7RzLKFFlJkDoBfSxPGGybMFwAAgAWAA4aKgBuU04MBylsAHkkeqRmMgBfFyg6d3AIH39A-CaULhSLRWLpJKpdJ7GJgOLKSFpBFoLCaLAIGHghHJJEJGDQKSIUx5ZbpaQIPyXa5zLAPJ7MbQgd5mT7PXAJTicD44XAeX6+AJBAxUm5OOnIBlMj5QPDcPl-QX4NDAiJRfCw+F4nEQip5ADuIpp4rZhCZqg+FnwEkyMj2KCgSAQEhRniZQA"
@@ -809,7 +390,7 @@
           ]
         },
         {
-          "title": "Entity-All Users",
+          "title": "VerifyUIAllUserListingPage",
           "description": "",
           "enableOnPlaying": true,
           "networkSpeed": 0,
@@ -862,7 +443,7 @@
                 "options": [
                   {
                     "type": "other",
-                    "value": "716,704"
+                    "value": "890,697"
                   }
                 ],
                 "tac": ""
@@ -870,6 +451,37 @@
               "description": "",
               "pwt": {
                 "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "pageReload",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": null,
                 "paw": 0,
                 "prw": 0,
                 "pdw": 0
@@ -905,7 +517,7 @@
                 "options": [
                   {
                     "type": "other",
-                    "value": "66,22"
+                    "value": "94,25"
                   }
                 ],
                 "tac": ""
@@ -915,50 +527,7 @@
                 "pbw": 0,
                 "paw": 0,
                 "prw": 0,
-                "pdw": 24
-              },
-              "comment": false
-            },
-            {
-              "name": "verifyText",
-              "target": {
-                "usedIndex": 0,
-                "options": [
-                  {
-                    "type": "tac",
-                    "value": "(Entity)"
-                  },
-                  {
-                    "type": "xpath:idRelative",
-                    "value": "//ul[@id='identity$Menu']/li[1]/div[1]"
-                  },
-                  {
-                    "type": "xpath:position",
-                    "value": "//li[1]/ul[1]/li[1]/div[1]"
-                  },
-                  {
-                    "type": "css:position",
-                    "value": "css=li.ant-menu-submenu.ant-menu-submenu-inline.ant-menu-submenu-active > div.ant-menu-submenu-title"
-                  }
-                ],
-                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYFcAbAbQAE0AJgF4A5IIRYwaMAE8AJAFkJ7EQF0WnNNwLqBaONtUUQGMMwlTZxjBDyhIAcwByEALYJmeuMaicIKFGYISRh3LHYYFHYAIzCIy04PSiQMROZo9jAwbGMIJDQIGARaYIEEAWYAMwhOFCSQPIKYBn8aDBp2GmYwJHZ6hI98C2kZYxRZNPw6AT0sBxhEyrBcAAIAFgAOGioAbmNODCh6TCwAeSQypGYyAF9KQ7o7cAhnN0GQTR8-AKCQuMiYnEVsEwKFlADYuC0FhNFgEMC-uCopDwjBoFJEMYUpMQHFpAhXPtDsdsOdLtcQHcTFAaFdcOFOJx7lAcLh7C8XO5PPoiUcpKSLshmAAmSnMqB4bjs15c-BoL7+QL4EFg1HI-55FIAd15JLOgrphEpqmZZjlZUkIxWiHylTQfJOlKAA"
-              },
-              "value": {
-                "usedIndex": 0,
-                "options": [
-                  {
-                    "type": "other",
-                    "value": "Entity"
-                  }
-                ],
-                "tac": ""
-              },
-              "description": "",
-              "pwt": {
-                "pbw": 0,
-                "paw": 0,
-                "prw": 0,
-                "pdw": 0
+                "pdw": 19
               },
               "comment": false
             },
@@ -991,7 +560,7 @@
                 "options": [
                   {
                     "type": "other",
-                    "value": "73,17"
+                    "value": "92,22"
                   }
                 ],
                 "tac": ""
@@ -1077,7 +646,7 @@
                 "options": [
                   {
                     "type": "other",
-                    "value": "103,23"
+                    "value": "110,14"
                   }
                 ],
                 "tac": ""
@@ -1102,18 +671,18 @@
                   },
                   {
                     "type": "xpath:idRelative",
-                    "value": "//div[@id='root']/div[1]/main[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/table[1]/thead[1]/tr[1]/th[1]/div[1]/span[1]/div[1]/div[1]/span[1]"
+                    "value": "//div[@id='root']/div[1]/main[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/table[1]/thead[1]/tr[1]/th[1]/div[1]/span[1]/div[1]/div[1]"
                   },
                   {
                     "type": "xpath:position",
-                    "value": "//span[1]/div[1]/div[1]/span[1]"
+                    "value": "//span[1]/div[1]/div[1]"
                   },
                   {
                     "type": "css:position",
-                    "value": "css=div.ant-table-column-sorters > span"
+                    "value": "css=div.ant-table-column-sorters"
                   }
                 ],
-                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyAthDRZ5MzjwWyeAJg1ztm9TpPGjhg1pmQARgBsEJxggjtnSZwzOWWKOmoW1qba-hCBUhQgEswCURgQeKCQAOYAchCKCMxhOJT2GFD0mFgA8kjsyMxkAL6UhXRJ4BDpmdn4mlFQ9hAoKMzhYDB2jjBQGPYAropYMCgYSGDI-fmFxdjllUjVIHXRUDTbuFiT9vb1UDi4yS0ZWTkBXT19A1hDIwhjE9Oz84vIAAJBsMIA5PuMpjM5gslkgYAAzU72KIFIpgEqbKr4XS7C5QPDcKQXMADM6TFDLAAUBAIAGYAOy0gCUAIQVFhWAg9jiNSAA"
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyAthDRZ5MzjwWyeAJg1ztm9TpPGjhg1pmQARgBsEJxggjtnSZwzOWWKOmoW1qYKFCASzAJhGBB4oJAA5gByEIoIzJphUPYQKCjMEFhgMHaOMFAY9gCuilgwKBhIYMj5lPYYUPSYWADySOzIzGQAvpQddHHgEMmp6fiZlNm5+fiFxaUI5ZU1dQ1NLTAA7miMJeL2YGg0AARrZ5WXNDAYNAg4bR1d2H0DSEMgo3CUBof1wWCq9nsYygODBEKhQKgeG48WmKTSzH8hTC7U6l2+-UG+BG5FRMwx+Cx7xASzyBSKJQgDk2FWqtXqjWaSFuDI2WzZu05yBgADN4TjPvjeoTQSBdACpNCwAVIVUUC0ABQEAgAZgAHDqAJTXBBULlYCD2KLDIA"
               },
               "value": {
                 "usedIndex": 0,
@@ -1285,7 +854,7 @@
                     "value": "css=div.ant-table-column-sorters-with-tooltip.ant-tooltip-open > div.ant-table-column-sorters > span"
                   }
                 ],
-                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyAthDRZ5MzjwWyeAJg1ztm9TpPGjhg1pmQARgBsEJxggjtnSZw24BWKyZQ6NQtrU21AiGCpChAJZgEELDA0MABPLABXRVtkGIwIPFBIAHMAOQhFBGYInEp7DCh6TCwAeSR2XPwyAF9KBrpC8Agyiqr8TRioewgUFGZIsBg7RxgoDHssrBgUDCQwZDm6hqbsNo6kZh6+qBoL3Ez7e2ucXCLh8srqoMnp2fmkpYQBwIVbrTbbXb7JAAAgWgOBoI2ii2Oz2yBgADMMo8YvVGslTu1OiBdCBerEoFA8NwpNcwMwsY8sKNoQBmAAsugAnOyCLZdFB2RjbLAAAwANlcMHZrPFopgEHFXJB7CF4oIBB87FFPlsBCoGIOMCoKGKZKAA"
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyAthDRZ5MzjwWyeAJg1ztm9TpPGjhg1pmQARgBsEJxggjtnSZw24BWKyZQ6NQtrU21AiGCpChAJZgEELDA0MABPLABXRVtkGIwIPFBIAHMAOQhFBGYInEp7DCh6TCwAeSR2XPwyAF9KBrpC8Agyiqr8TRioewgUFGZIsBg7RxgoDHssrBgUDCQwZDm6hqbsNo6kZh6+qBoL3Ez7e2ucXCLh8srqoMnp2fmkpYQBwIVbrTbbXb7JAAAgWgOBoI2ii2Oz2yBgADMMo8YvVGslTu1OiBdCBerEoFA8NwpNcwMwsY8sKNoQB2AAsPgIAE4EOwCCCIAhdBAYOyoAA2CUwblQTkwAi2AAcBE5UFZrIAzBKZsUYFQMQdQUgqt0gA"
               },
               "value": {
                 "usedIndex": 0,
@@ -1307,6 +876,13 @@
               "comment": false
             }
           ]
+        },
+        {
+          "title": "VerifyAllUserDetailsPage",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": []
         }
       ]
     }
